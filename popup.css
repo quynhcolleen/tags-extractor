@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  margin: 0;
+  width: 360px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #121212;
+  color: #ffffff;
+}
+
+.card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.site-info {
+  font-size: 13px;
+  color: #bbbbbb;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background: #1e1e1e;
+  color: white;
+  padding: 10px;
+  font-size: 13px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600; 
+  cursor: pointer;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
